@@ -1,0 +1,10 @@
+.whatsapp {
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .container:hover .whatsapp {
+    opacity: 0.3;
+  }
