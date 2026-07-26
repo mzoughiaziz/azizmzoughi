@@ -1,0 +1,22 @@
+/* Global app-level styles (component-specific styles live in each component's .scss) */
+
+html {
+  scroll-behavior: smooth;
+}
+
+#about,
+#project,
+#resume,
+#contact {
+  scroll-margin-top: 76px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  margin: 0;
+}

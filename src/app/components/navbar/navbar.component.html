@@ -1,0 +1,45 @@
+<a class="skip-link" href="#about">Skip to content</a>
+
+<header>
+  <nav class="navbar navbar-expand-sm navbar-light" [class.headroom--not-top]="scrolled" aria-label="Primary">
+    <div class="container">
+      <a class="navbar-brand" href="#about" (click)="closeMenu()">
+        <i class="uil uil-user" aria-hidden="true"></i> Aziz Portfolio
+      </a>
+
+      <button class="navbar-toggler" type="button" (click)="toggleMenu()"
+        [attr.aria-expanded]="menuOpen" aria-controls="navbarNav" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" [class.show]="menuOpen" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item">
+            <a href="#about" class="nav-link" (click)="closeMenu()"><span data-hover="About">About</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#project" class="nav-link" (click)="closeMenu()"><span data-hover="Projects">Projects</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume" class="nav-link" (click)="closeMenu()"><span data-hover="Resume">Resume</span></a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" (click)="closeMenu()"><span data-hover="Contact">Contact</span></a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav ml-lg-auto">
+          <div class="ml-lg-4">
+            <button type="button" class="color-mode d-lg-flex justify-content-center align-items-center"
+              (click)="theme.toggle()" [attr.aria-pressed]="theme.isDark()" aria-label="Toggle dark mode">
+              <i class="color-mode-icon" [class.active]="theme.isDark()" aria-hidden="true"></i>
+              Color mode
+            </button>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,88 @@
+<svg viewBox="0 0 600 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="devTitle">
+  <title id="devTitle">Illustration of a male software developer working at a desk with a monitor</title>
+
+  <!-- floor shadow -->
+  <ellipse cx="300" cy="486" rx="220" ry="18" fill="#e7e6ef" />
+
+  <!-- plant -->
+  <g>
+    <rect x="60" y="400" width="46" height="40" rx="6" fill="#474559" />
+    <path d="M83 400 C60 370 60 340 83 320 C106 340 106 370 83 400 Z" fill="#3ecf6e" />
+    <path d="M83 400 C68 380 68 360 83 344 C98 360 98 380 83 400 Z" fill="#34b860" />
+  </g>
+
+  <!-- desk -->
+  <rect x="120" y="360" width="410" height="18" rx="6" fill="#474559" />
+  <rect x="140" y="378" width="14" height="70" fill="#3a3948" />
+  <rect x="480" y="378" width="14" height="70" fill="#3a3948" />
+
+  <!-- monitor -->
+  <g>
+    <rect x="330" y="230" width="150" height="105" rx="8" fill="#22212b" />
+    <rect x="340" y="240" width="130" height="85" rx="4" fill="#2f2e3a" />
+    <rect x="352" y="252" width="60" height="8" rx="4" fill="#ffc200" />
+    <rect x="352" y="268" width="90" height="6" rx="3" fill="#6b6884" />
+    <rect x="352" y="280" width="70" height="6" rx="3" fill="#6b6884" />
+    <rect x="352" y="292" width="100" height="6" rx="3" fill="#6b6884" />
+    <rect x="352" y="304" width="50" height="6" rx="3" fill="#ffc200" />
+    <rect x="395" y="335" width="20" height="18" fill="#474559" />
+    <rect x="375" y="351" width="60" height="9" rx="4" fill="#474559" />
+  </g>
+
+  <!-- coffee mug -->
+  <g>
+    <rect x="150" y="335" width="26" height="25" rx="4" fill="#ffc200" />
+    <path d="M176 341 h8 a7 7 0 0 1 0 14 h-8 z" fill="none" stroke="#ffc200" stroke-width="4" />
+  </g>
+
+  <!-- keyboard -->
+  <rect x="220" y="345" width="90" height="15" rx="3" fill="#6b6884" />
+
+  <!-- chair -->
+  <path d="M300 260 q-46 0 -46 46 v70 q0 14 14 14 h64 q14 0 14 -14 v-70 q0 -46 -46 -46 z" fill="#3a3948" />
+
+  <!-- man: legs -->
+  <rect x="272" y="400" width="24" height="55" rx="10" fill="#22212b" />
+  <rect x="306" y="400" width="24" height="55" rx="10" fill="#22212b" />
+  <rect x="266" y="448" width="34" height="14" rx="6" fill="#474559" />
+  <rect x="302" y="448" width="34" height="14" rx="6" fill="#474559" />
+
+  <!-- man: torso / shirt -->
+  <path d="M258 300 q42 -22 84 0 l10 90 q-52 20 -104 0 z" fill="#ffc200" />
+
+  <!-- man: arms -->
+  <path d="M258 308 q-30 10 -34 44 l30 10 q10 -30 22 -40 z" fill="#ffc200" />
+  <path d="M342 308 q30 10 34 44 l-30 10 q-10 -30 -22 -40 z" fill="#ffc200" />
+  <circle cx="222" cy="360" r="11" fill="#e0a075" />
+  <circle cx="378" cy="360" r="11" fill="#e0a075" />
+
+  <!-- man: neck + head -->
+  <rect x="288" y="252" width="24" height="24" fill="#e0a075" />
+  <circle cx="300" cy="230" r="38" fill="#e8ac82" />
+
+  <!-- man: hair (short, textured) -->
+  <path d="M262 224 q-4 -46 38 -46 q42 0 38 46 q-6 -18 -38 -18 q-32 0 -38 18 z" fill="#2b2b33" />
+  <path d="M262 222 q0 14 4 22 q-10 -6 -10 -22 q0 -10 6 -14 z" fill="#2b2b33" />
+  <path d="M338 222 q0 14 -4 22 q10 -6 10 -22 q0 -10 -6 -14 z" fill="#2b2b33" />
+
+  <!-- man: simple face -->
+  <circle cx="286" cy="232" r="3.5" fill="#22212b" />
+  <circle cx="314" cy="232" r="3.5" fill="#22212b" />
+  <path d="M290 248 q10 8 20 0" stroke="#22212b" stroke-width="3" fill="none" stroke-linecap="round" />
+
+  <!-- glasses (nod to developer look) -->
+  <path d="M270 232 h20 M310 232 h20 M290 232 h10" stroke="#474559" stroke-width="3" fill="none" />
+  <circle cx="282" cy="232" r="12" fill="none" stroke="#474559" stroke-width="3" />
+  <circle cx="318" cy="232" r="12" fill="none" stroke="#474559" stroke-width="3" />
+
+  <!-- floating code / tech chips (decorative, matches original template's node graphic) -->
+  <g fill="none" stroke="#c9c7d6" stroke-width="2">
+    <line x1="470" y1="120" x2="510" y2="90" />
+    <line x1="510" y1="90" x2="550" y2="110" />
+    <line x1="470" y1="120" x2="440" y2="150" />
+  </g>
+  <circle cx="470" cy="120" r="7" fill="#ffc200" />
+  <circle cx="510" cy="90" r="7" fill="#474559" />
+  <circle cx="550" cy="110" r="7" fill="#474559" />
+  <circle cx="440" cy="150" r="7" fill="#474559" />
+</svg>

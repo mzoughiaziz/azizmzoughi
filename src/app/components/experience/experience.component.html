@@ -1,0 +1,23 @@
+<section class="resume py-5 d-lg-flex justify-content-center align-items-center" id="resume">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <span class="section-eyebrow">Career path</span>
+        <h2 class="mb-5">Experience</h2>
+      </div>
+    </div>
+    <div class="d-flex justify-content-center">
+      <div class="timeline" appRevealOnScroll>
+        <div class="timeline-wrapper" *ngFor="let item of experience; trackBy: trackByRole">
+          <div class="timeline-yr">
+            <span>{{ item.year }}</span>
+          </div>
+          <div class="timeline-info">
+            <h3><span>{{ item.role }}</span><small>{{ item.company }}</small></h3>
+            <p>{{ item.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
